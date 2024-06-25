@@ -6,4 +6,3 @@ xy -d path/to/image.img.xz
 
 # Flashen
 sudo dd if=path/to/your/image.img of=/dev/sdX bs=4M status=progress
-
