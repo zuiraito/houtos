@@ -1,0 +1,10 @@
+nmcli con add type wifi con-name "eduroam" ifname wlan0 ssid "eduroam" \
+    802-1x.eap peap \
+    802-1x.phase2-auth mschapv2 \
+    802-1x.identity "my_username" \
+    802-1x.password "my_password" \
+    wifi-sec.key-mgmt wpa-eap \
+    802-1x.ca-cert "/etc/ssl/certs/ca-certificates.crt"
+
+nmcli con up "eduroam"
+
