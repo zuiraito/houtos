@@ -7,4 +7,3 @@ nmcli con add type wifi con-name "eduroam" ifname wlan0 ssid "eduroam" \
     802-1x.ca-cert "/etc/ssl/certs/ca-certificates.crt"
 
 nmcli con up "eduroam"
-
