@@ -1,7 +1,7 @@
 # Storage device finden
 lsblk
 
-# wenn .img.xz muss man die Datei decompressen
+# Wenn .img.xz muss man die Datei decompressen
 xy -d path/to/image.img.xz
 
 # Flashen
