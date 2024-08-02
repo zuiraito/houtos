@@ -1,3 +1,6 @@
 git add *
 git commit -m "tell me what you did"
 git push
+
+# Add the token
+git remote set-url origin https://[[TOKEN]]@github.com/[[USERNAME]]/[[REPO]].git
