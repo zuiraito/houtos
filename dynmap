@@ -1,0 +1,6 @@
+dynmap cancelrender world
+
+dynmap fullrender resume world:flat
+dynmap fullrender resume world:surface
+
+https://github-wiki-see.page/m/webbukkit/dynmap/wiki/Commands
