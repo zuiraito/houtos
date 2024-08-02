@@ -1,0 +1,1 @@
+pdftk * cat output OUTPUT.pdf
