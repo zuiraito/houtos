@@ -1,0 +1,10 @@
+# Installation
+sudo apt install openssh-server
+
+sudo systemctl status ssh
+
+# connection
+ssh user@ip
+
+# find ip
+ip a
